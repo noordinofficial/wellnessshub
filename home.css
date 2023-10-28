@@ -1,0 +1,126 @@
+           /* Responsive design using media queries */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .navbar ul {
+        margin-top: 10px;
+    }
+
+    .navbar li {
+        display: block;
+        margin: 10px 0;
+    }
+    body{
+        background:#f5f3ef ;
+    }
+    
+}     
+        /* Reset some default styles for the list */
+            ul {
+                list-style-type: none;
+                padding: 0;
+                margin: 0;
+            }
+
+            /* Style the navigation bar */
+            .navbar {
+                background-color:#071a57;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 10px;
+            }
+
+            /* Style the list items horizontally */
+            .navbar ul {
+                display: flex;
+                justify-content: flex-end; /* Move navigation to the right */
+            }
+
+            .navbar li {
+                padding: 10px;
+            }
+
+            /* Style the links */
+            .navbar a {
+                color: gold;
+                text-decoration: none;
+            }
+
+            /* Change link color on hover */
+            .navbar a:hover {
+                color: #007bff;
+            }
+
+            /* Style the logo */
+            .logo img {
+                max-height: 40px; /* Adjust the height as needed */
+            }
+            .content img {
+                max-width: 100%;
+                height: auto;
+                margin-bottom: 20px;
+            }
+            
+            .image-text {
+                position: absolute;
+                top: 50%; /* Adjust as needed to vertically center the text */
+                left: 20%; /* Adjust as needed to horizontally center the text */
+                transform: translate(-50%, -50%);
+                background-color: #071a57; /* Semi-transparent background for readability */
+                color: gold;
+                padding: 1%;
+                font-size: 24px;
+                text-align: justify;
+            }
+        
+            .columns2 {
+                display: flex;
+                justify-content: space-between;
+              }
+              .One3{
+                flex-basis: 48%;
+              }
+
+            /* Style the button */
+            .button {
+                position: absolute;
+                top: 60%; /* Adjust to position vertically as needed */
+                left: 20%; /* Adjust to position horizontally as needed */
+                transform: translate(-50%, -50%); /* Center the button within the container */
+                padding: 10px 20px;
+                background-color: rgb(238, 223, 18); /* Button background color */
+                color: #fff; /* Button text color */
+                border: none;
+                border-radius: 15px;
+                cursor: pointer;
+                z-index: 1; /* Ensure the button appears on top of the image */
+            }
+
+            /* Change button color on hover */
+            .action-button:hover {
+                background-color: gold;
+            }
+            footer {
+                background-color: #333; /* Background color for the footer */
+                color: white; /* Text color for the footer */
+                text-align: center;
+                padding: 10px;
+            }
+            p{
+                max-width: 100%;
+                text-align: center;
+                font-size: 1.0em;
+              }
+              
+              h2 {
+                font-size: 2.0em;
+                font-weight: 500;
+                color: black;
+                text-align: center;
+              }
+            
+              
